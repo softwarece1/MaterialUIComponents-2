@@ -3,4 +3,4 @@ WORKDIR '/app'
 
 COPY package.json .
 COPY . ./
-CMD ['npm', 'start']
+CMD ['npm','start']
